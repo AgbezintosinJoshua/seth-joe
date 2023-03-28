@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/84f839160f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website With Typing Effect</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">folio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">skills</a></li>
+          <li><a href="#">blog</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1><strong>I'm a</strong> <span class="multiText"><strong>Coder</strong></span></h1>
+          <p>“I'm a software developer who has been working in the field for eight years.<br> I'm passionate about creating quality products”</p>
+          <div class="btns">
+            <button>download CV</button>
+            <button>hire me</button>
+          </div>
+        </div>
+
+        <div class="cols cols1">
+           <div class="imgbox">
+            
+             <img src="sethh.png">
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText",{
+        strings : ["coder","web developer","designer"],
+        loop : true,
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1500,
+      })
+    </script>
+  </body>
+</html>
